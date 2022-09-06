@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    height:100vh;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.qrCode__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.qrCode__img__content{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+.qrCode__img__content-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.qrCode__text__content{
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.qrCode__text__content-header{
+    font-size: 1.3rem;
+
+}
+
+.qrCode__text__content-text{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
